@@ -1,5 +1,13 @@
 import Tree from './Tree'
+
 import { FastifyPlugin } from 'fastify'
+
+export {
+  TreeSymbol,
+  MethodSymbol,
+  BaseSymbol,
+  ParentTreeSymbol
+} from './TreeSymbols'
 
 declare module 'fastify' {
   interface FastifyInstance {
