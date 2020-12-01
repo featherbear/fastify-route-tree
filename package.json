@@ -1,0 +1,15 @@
+{
+  "name": "fastify-route-tree",
+  "version": "1.0.0",
+  "description": "Tree representation of Fastify routes",
+  "main": "index.js",
+  "repository": "git@github.com:featherbear/fastify-route-tree.git",
+  "author": "Andrew Wong <andrew.j.wong@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "fastify": "^3.8.0"
+  }
+}
